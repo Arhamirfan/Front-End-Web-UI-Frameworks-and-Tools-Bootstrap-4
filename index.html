@@ -9,13 +9,14 @@
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Bootstrap learning</title>
 </head>
 
 <body>
     <header class="jumbotron"> <!-- jumbotron will seperate the class from web page-->
         <div class="container">
-            <div class="row">
+            <div class="row row_header">
                 <div class="col-12 col-sm-6"> <!-- states that 12/12 col means whole row is assigned and from sm-xl takes 6 col.-->
                     <h1>Header col class 1</h1>
                     <p>text of col class wrapped in header row and col part 1</p>
@@ -32,7 +33,7 @@
     <div class="container">
         <!--bootstrap grid system work as a container in a div box .. these are fix class-->
         <h3> Inner container class</h3>
-        <div class="row">
+        <div class="row row_contant align-items-center">
             <!-- To add all rows and align then and to fix them within it we can specify columns .. -> each row is divided into 12 columns-->
             <!-- we will specify these classes for different screens of 5 sizes as col-sm,col-md,col-lg,col-xl -->
             <div class="col-12 col-sm-4 col-m-3">
@@ -43,19 +44,19 @@
             <div class="col col-sm col-md">
                 <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
                 <h3>row second column</h3>
-                <p> wrapped in container class of row and inside it row 2 columns#2 exist</p>
+                <p> wrapped in container class of row and inside it row 1 columns#2 exist</p>
             </div>
 
         </div>
 
-        <div class="row">
+        <div class="row row_contant align-items-center">
 
             <div class="col-12 col-sm-4 col-m-3">
                 <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
                 <h3> row first column</h3>
                 <p> Details there:</p>
             </div>
-            <div class="col col-sm col-md">
+            <div class="col col-sm col-md ">
                 <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
                 <h3>row second column</h3>
                 <p> wrapped in container class of row and inside it row 2 columns#2 exist</p>
@@ -63,7 +64,7 @@
 
         </div>
 
-        <div class="row">
+        <div class="row row_contant align-items-center">
 
             <div class="col-12 col-sm-4 col-m-3">
                 <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
@@ -80,13 +81,13 @@
     </div>
 
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">
                 
                 <div class="col-4 col-sm-2">
                     <h4>Links</h4>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li> <a href="#">Home</a></li>
                         <li> <a href="#">Orders</a></li>
                         <li> <a href="#">about</a></li>
@@ -101,19 +102,19 @@
                     </address> 
                     
                 </div>
-                <div class="col-12 col-sm-4">
-                    <div>
-                        <h4>Accounts</h4>
-                        <a href="#">Facebook</a>
-                        <a href="#">Twitter</a>
-                        <a href="#">Github</a>
-                        <a href="#">Bitbucket</a>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        
+                        | <a href="#">Facebook</a> |
+                        <a href="#">Twitter</a> |
+                        <a href="#">Github</a> |
+                        <a href="#">Bitbucket</a> |
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-auto"> <!-- takes as many col required for content here-->
+                <div class="col-auto offset-1 justify-content-center"> <!-- takes as many col required for content here-->
                     <p> &reg; Registered 2020, All rights reserved as this is official mark</p>
                 </div>
 
