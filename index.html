@@ -13,97 +13,118 @@
 </head>
 
 <body>
-
-    <header>
-        <div>
-            <div>
-                <div>
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+    <header class="jumbotron"> <!-- jumbotron will seperate the class from web page-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6"> <!-- states that 12/12 col means whole row is assigned and from sm-xl takes 6 col.-->
+                    <h1>Header col class 1</h1>
+                    <p>text of col class wrapped in header row and col part 1</p>
                 </div>
-                <div>
+                <div class="col-12 col-sm"> <!-- states that 12/12 col means whole row is assigned and from sm-xl takes remaining 6 col.-->
+                    <h1>Header col class 2</h1>
+                    <p>text of col class wrapped in header row and col part 2</p>
                 </div>
             </div>
+
         </div>
+
     </header>
+    <div class="container">
+        <!--bootstrap grid system work as a container in a div box .. these are fix class-->
+        <h3> Inner container class</h3>
+        <div class="row">
+            <!-- To add all rows and align then and to fix them within it we can specify columns .. -> each row is divided into 12 columns-->
+            <!-- we will specify these classes for different screens of 5 sizes as col-sm,col-md,col-lg,col-xl -->
+            <div class="col-12 col-sm-4 col-m-3">
+                <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
+                <h3> row first column</h3>
+                <p> Details there:</p>
+            </div>
+            <div class="col col-sm col-md">
+                <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
+                <h3>row second column</h3>
+                <p> wrapped in container class of row and inside it row 2 columns#2 exist</p>
+            </div>
 
-    <div>
-        <div>
-            <div>
-                <h3>Our Lipsmacking Culinary Creations</h3>
-            </div>
-            <div>
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-            </div>
         </div>
 
+        <div class="row">
 
-        <div>
-            <div>
-                <h3>This Month's Promotions</h3>
+            <div class="col-12 col-sm-4 col-m-3">
+                <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
+                <h3> row first column</h3>
+                <p> Details there:</p>
             </div>
-            <div>
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col col-sm col-md">
+                <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
+                <h3>row second column</h3>
+                <p> wrapped in container class of row and inside it row 2 columns#2 exist</p>
             </div>
+
         </div>
 
-        <div>
-            <div>
-                <h3>Meet our Culinary Specialists</h3>
+        <div class="row">
+
+            <div class="col-12 col-sm-4 col-m-3">
+                <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
+                <h3> row first column</h3>
+                <p> Details there :</p>
             </div>
-            <div>
-                <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            <div class="col col-sm col-md">
+                <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
+                <h3>row second column</h3>
+                <p> wrapped in container class of row and inside it row 3 columns#2 exist</p>
             </div>
+
         </div>
     </div>
 
+
     <footer>
-        <div>
-            <div>             
-                <div>
-                    <h5>Links</h5>
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-4 col-sm-2">
+                    <h4>Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Orders</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div>
-                    <h5>Our Address</h5>
-                    <address>
-		              121, Clear Water Bay Road<br>
-		              Clear Water Bay, Kowloon<br>
-		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
-		           </address>
+                <div class="col-7 col-sm-5">
+                    <h4>Address</h4>
+                    <address> 
+                        68/8 Old civil line , Sahiwal, Punjab<br>
+                        Looney wala stop,FAST-NU,Faisalaabd-chinot,Punjab<br>
+                    </address> 
+                    
                 </div>
-                <div>
+                <div class="col-12 col-sm-4">
                     <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                        <h4>Accounts</h4>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Github</a>
+                        <a href="#">Bitbucket</a>
                     </div>
                 </div>
-           </div>
-           <div>             
-                <div>
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+            </div>
+
+            <div class="row">
+                <div class="col-auto"> <!-- takes as many col required for content here-->
+                    <p> &reg; Registered 2020, All rights reserved as this is official mark</p>
                 </div>
-           </div>
+
+            </div>
         </div>
+
     </footer>
 
-	    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
