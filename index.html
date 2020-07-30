@@ -14,25 +14,53 @@
 </head>
 
 <body>
+
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+        <div class="container">
+            
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon">          
+                
+                </span>
+            </button>
+
+            <a href="./index.html" class="navbar-brand mr-auto">Portfolio</a>
+
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a href="#" class="nav-link">Home</a> </li>
+                    <li class="nav-item"> <a href="./aboutus.html" class="nav-link">About us</a> </li>
+                    <li class="nav-item"> <a href="#" class="nav-link">Menu</a> </li>
+                    <li class="nav-item"> <a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+
+
     <header class="jumbotron"> <!-- jumbotron will seperate the class from web page-->
         <div class="container">
+            
             <div class="row row_header">
                 <div class="col-12 col-sm-6"> <!-- states that 12/12 col means whole row is assigned and from sm-xl takes 6 col.-->
                     <h1>Header col class 1</h1>
-                    <p>text of col class wrapped in header row and col part 1</p>
+                    <p class="d-none d-sm-block">text of col class wrapped in header row and col part 1</p>
                 </div>
                 <div class="col-12 col-sm"> <!-- states that 12/12 col means whole row is assigned and from sm-xl takes remaining 6 col.-->
                     <h1>Header col class 2</h1>
-                    <p>text of col class wrapped in header row and col part 2</p>
+                    <p class="d-none d-sm-block">text of col class wrapped in header row and col part 2</p>
                 </div>
-            </div>
+            
 
         </div>
 
     </header>
     <div class="container">
         <!--bootstrap grid system work as a container in a div box .. these are fix class-->
-        <h3> Inner container class</h3>
+        <h3> Home</h3>
+        <hr>
         <div class="row row_contant align-items-center">
             <!-- To add all rows and align then and to fix them within it we can specify columns .. -> each row is divided into 12 columns-->
             <!-- we will specify these classes for different screens of 5 sizes as col-sm,col-md,col-lg,col-xl -->
@@ -88,9 +116,9 @@
                 <div class="col-4 col-sm-2">
                     <h4>Links</h4>
                     <ul class="list-unstyled">
-                        <li> <a href="#">Home</a></li>
-                        <li> <a href="#">Orders</a></li>
-                        <li> <a href="#">about</a></li>
+                        <li> <a href="./index.html">Home</a></li>
+                        <li> <a href="./aboutus.html">About</a></li>
+                        <li> <a href="#">Menu</a></li>
                         <li> <a href="#">Contact</a></li>
                     </ul>
                 </div>
