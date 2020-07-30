@@ -15,9 +15,9 @@
 }
 .row_contant{
     margin: px auto;
-    padding: 50px 0px 50px 0px;
+    padding: 20px 0px 20px 0px;
     border-bottom: 1px ridge;
-    min-height: 400px;
+    min-height: 100px;
 }
 .footer{
     background-color: #D1C4E9;
