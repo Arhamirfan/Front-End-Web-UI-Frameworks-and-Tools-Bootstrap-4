@@ -26,7 +26,7 @@
                 </span>
             </button>
 
-            <a href="./index.html" class="navbar-brand mr-auto">Portfolio</a>
+            <a href="./index.html" class="navbar-brand mr-auto"> <img src="css/logo.ico" height="40" width="40"> Portfolio</a>
 
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="navbar-nav ml-auto">
@@ -44,11 +44,12 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
+                <div class="col-12 col-sm align-content-center">
+                    <img class="img-fluid" src="css/slayer.png">
+                </div>
                 <div class="col-12 col-sm-7">
                     <h1>Home</h1>
                     <p class="d-none d-sm-block">We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-sm">
                 </div>
             </div>
         </div>
@@ -56,35 +57,26 @@
 
     <div class="container">
         <!--bootstrap grid system work as a container in a div box .. these are fix class-->
+        <ol class="col-12 breadcrumb">
+            <li class="breadcrumb-item active">Home </a></li>
+        </ol>
         <h3> Home</h3>
         <hr>
-        <div class="row row_contant align-items-center">
-            <!-- To add all rows and align then and to fix them within it we can specify columns .. -> each row is divided into 12 columns-->
-            <!-- we will specify these classes for different screens of 5 sizes as col-sm,col-md,col-lg,col-xl -->
-            <div class="col-12 col-sm-4 col-m-3">
-                <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
-                <h3> row first column</h3>
-                <p> Details there:</p>
-            </div>
-            <div class="col col-sm col-md">
-                <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
-                <h3>row second column</h3>
-                <p> wrapped in container class of row and inside it row 1 columns#2 exist</p>
-            </div>
-
-        </div>
 
         <div class="row row_contant align-items-center">
 
-            <div class="col-12 col-sm-4 col-m-3">
+            <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <!-- 12 col means whole row is assigned and for small devices give 4 col and from md-xl give 3 blocks of col.-->
-                <h3> row first column</h3>
-                <p> Details there:</p>
+                <h3> AI Admin block</h3>
             </div>
-            <div class="col col-sm col-md ">
-                <!-- 12 is assigned to 1st and it is stacked to next line where 12-4 is assigned to it and 12-3=9 is assigned to it-->
-                <h3>row second column</h3>
-                <p> wrapped in container class of row and inside it row 2 columns#2 exist</p>
+            <div class="col col-sm order-sm-first col-md ">
+                <div class="media">
+                    <img class=" mr-3 img-thumbnail align-self-center" src="css/slayer.png" height="100" width="100"> <!-- mr-3 =3 row spaces far away from media image tag-->
+                    <div class=" media-body">
+                        <h2 class="mt-3">Arham irfan</h2> <!-- margin top will be take whole class and image from top to bottom as specifies-->
+                        <p class="d-none d-sm-block"> A junior developer who is just started to open his wings and opened for a new world where he learns different flavours of programming</p>
+                    </div>
+                </div>
             </div>
 
         </div>
