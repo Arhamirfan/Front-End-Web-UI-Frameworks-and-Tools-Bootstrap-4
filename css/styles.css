@@ -14,13 +14,22 @@
     color: #0f0f0f;
 }
 .row_contant{
-    margin: px auto;
+    margin: 0px auto;
     padding: 20px 0px 20px 0px;
     border-bottom: 1px ridge;
-    min-height: 100px;
+    min-height: 400px;
 }
 .footer{
     background-color: #D1C4E9;
     margin: 0px;
     padding: 20px 0px 20px 0px;
+}
+.navbar-dark{
+    background-color: #512DA8;
+}
+.tab-content{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
 }
