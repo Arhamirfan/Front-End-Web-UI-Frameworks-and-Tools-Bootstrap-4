@@ -7,10 +7,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
 
     <title>AI: About Us</title>
 
@@ -26,7 +28,7 @@
                 </span>
             </button>
     
-            <a href="./index.html" class="navbar-brand mr-auto"> <img src="css/logo.ico" height="40" width="40"> Portfolio</a>
+            <a href="./index.html" class="navbar-brand mr-auto"> <img src="img/logo.ico" height="40" width="40"> Portfolio</a>
     
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="navbar-nav ml-auto">
@@ -45,7 +47,7 @@
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm align-content-center">
-                    <img class="img-fluid" src="css/slayer.png">
+                    <img class="img-fluid" src="img/slayer.png">
                 </div>
                 <div class="col-12 col-sm-7">
                     <h1>About</h1>
@@ -76,7 +78,7 @@
                 <div class="card">
                     <h4 class="card-header bg-primary text-white">Portfolio AI</h4>
                     <div class="card-header embed-responsive embed-responsive-4by3">
-                    <img alt="card image top" class="card-img-top rounded-circle img-fluid embed-responsive-item" src="css/arham.jpg">
+                    <img alt="card image top" class="card-img-top rounded-circle img-fluid embed-responsive-item" src="img/arham.jpg">
                     </div>
                     <div class="card-body">
                         <dl class=" row">
@@ -296,9 +298,15 @@
         </div>
     </footer>
     
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js">
+    
+    </script>
+    <!-- endbuild -->
 </body>
 
 </html>
